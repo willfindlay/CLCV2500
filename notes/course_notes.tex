@@ -1,0 +1,482 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames*,x11names*}{xcolor}
+%
+\documentclass[
+  12pt]{findlay}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  filecolor=Maroon,
+  citecolor=green,
+  urlcolor=blue,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage{listings}
+\newcommand{\passthrough}[1]{#1}
+\lstset{defaultdialect=[5.3]Lua}
+\lstset{defaultdialect=[x86masm]Assembler}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+
+\usepackage[]{biblatex}
+
+\title{Classical Mythology}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{Untitled}
+\author{William Findlay}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\hypertarget{intro-organization}{%
+\section{Intro / Organization}\label{intro-organization}}
+
+\hypertarget{sample-question}{%
+\subsection{Sample Question}\label{sample-question}}
+
+``What did Agamemnon's murder mean to 5th century Athenians''
+
+\begin{itemize}
+\tightlist
+\item
+  Agamemnon -\textgreater{} Mycenae
+
+  \begin{itemize}
+  \tightlist
+  \item
+    was killed
+  \end{itemize}
+\item
+  many components to this question
+
+  \begin{itemize}
+  \tightlist
+  \item
+    contents of myth
+  \item
+    history
+  \item
+    culture
+  \item
+    interpretation
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{what-do-lecture-numbers-mean}{%
+\subsection{What Do Lecture Numbers
+Mean?}\label{what-do-lecture-numbers-mean}}
+
+\begin{itemize}
+\tightlist
+\item
+  week.lecture
+\item
+  e.g.~3.2
+
+  \begin{itemize}
+  \tightlist
+  \item
+    week 3, lecture 2
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{grading-and-assignments}{%
+\subsection{Grading and Assignments}\label{grading-and-assignments}}
+
+\begin{itemize}
+\tightlist
+\item
+  online quizzes
+
+  \begin{itemize}
+  \tightlist
+  \item
+    open for whole day
+  \item
+    maximum 8 MC each
+  \end{itemize}
+\item
+  midterm (Monday after the break?)
+
+  \begin{itemize}
+  \tightlist
+  \item
+    in class (but on cuLearn, during class time)
+  \item
+    part MC
+  \item
+    part written response (we will know the question a week beforehand)
+  \end{itemize}
+\item
+  either final exam like midterm or final assignment where we re-write a
+  story in a given style and justify it
+\end{itemize}
+
+\hypertarget{what-is-myth}{%
+\section{What is Myth?}\label{what-is-myth}}
+
+\begin{itemize}
+\tightlist
+\item
+  story passed on
+\item
+  folklore
+
+  \begin{itemize}
+  \tightlist
+  \item
+    what does folk mean here?
+  \item
+    implicit opposition to writing
+  \item
+    high culture vs low culture (folk is low) -\textgreater{} implies a
+    register
+  \end{itemize}
+\item
+  old wive's tales
+
+  \begin{itemize}
+  \tightlist
+  \item
+    who are old wives? -\textgreater{} metaphor for socio-demographic
+    standing
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{who-is-in-mythological-stories}{%
+\subsection{Who is in mythological
+stories?}\label{who-is-in-mythological-stories}}
+
+\begin{itemize}
+\tightlist
+\item
+  gods and heroes
+\item
+  e.g.~Trojan War
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Odysseus, Agamemnon, Zeus, Poseidon, etc.
+  \end{itemize}
+\item
+  gods and heroes -\textgreater{} what contemporary stories might fit
+  this definition?
+
+  \begin{itemize}
+  \tightlist
+  \item
+    maybe the Book of Mormon w/ Joseph Smith?
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{what-happens-in-mythological-stories}{%
+\subsection{What happens in mythological
+stories?}\label{what-happens-in-mythological-stories}}
+
+\begin{itemize}
+\tightlist
+\item
+  Cadmus and the Dragon
+
+  \begin{itemize}
+  \tightlist
+  \item
+    kills dragon, takes its teeth, sows its teeth
+  \item
+    teeth grow into men
+  \item
+    throws a rock, men fight each other for it and kill each other
+  \item
+    5 men left, become nobility, found city of Thebes with Cadmus
+  \end{itemize}
+\item
+  Eleusinian mysteries (religious cult)
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Heracles
+  \item
+    Persephone
+
+    \begin{itemize}
+    \tightlist
+    \item
+      daughter of Demeter
+    \end{itemize}
+  \item
+    a priest
+  \item
+    Demeter (goddess of fertile Earth)
+
+    \begin{itemize}
+    \tightlist
+    \item
+      power of Earth bring forth life, plant life, animal life, human
+      life
+    \end{itemize}
+  \item
+    Triptolemus
+  \item
+    Hecate (titan goddess of witchcraft, necromancy, ghosts, sorcery)
+  \item
+    Iambe
+  \item
+    Dionysus (god of wine and revelry)
+  \end{itemize}
+\item
+  rituals
+
+  \begin{itemize}
+  \tightlist
+  \item
+    often explained by stories
+  \item
+    myths help explain things
+  \end{itemize}
+\item
+  time frame for myths?
+
+  \begin{itemize}
+  \tightlist
+  \item
+    the floating gap
+  \item
+    sometime in the past
+  \item
+    purposeful lack of specificity
+  \item
+    consider:
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Star Wars -\textgreater{} ``a long time ago in a galaxy far, far
+      away''
+
+      \begin{itemize}
+      \tightlist
+      \item
+        George Lucas wanted his stories to have a mythological sense to
+        them
+      \end{itemize}
+    \item
+      fairy tales -\textgreater{} ``once upon a time''
+    \end{itemize}
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{why-did-greeksromans-care-about-myths}{%
+\subsection{Why did Greeks/Romans care about
+myths?}\label{why-did-greeksromans-care-about-myths}}
+
+\begin{itemize}
+\tightlist
+\item
+  relationship between past and present
+\item
+  founding of things that are commonplace in present
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Cadmus -\textgreater{} Thebes
+  \item
+    Demeter goes to Eleusis -\textgreater{} founds Mysteries
+  \end{itemize}
+\item
+  in general mythes want to:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    justify
+  \item
+    explain (aetiological)
+  \end{itemize}
+\item
+  key term: \textbf{aetiology}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    causes, reasons, responsibility
+  \item
+    provides explanation for something
+  \end{itemize}
+\item
+  contemporary myths
+
+  \begin{itemize}
+  \tightlist
+  \item
+    American revolution (second amendment lovers, resist tyranny)
+  \item
+    storks brining babies
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{myths-fictions-lies}{%
+\subsection{Myths, fictions, lies}\label{myths-fictions-lies}}
+
+\begin{itemize}
+\tightlist
+\item
+  are myths true? do people believe their myths? yes and no
+\end{itemize}
+
+\hypertarget{the-no}{%
+\subsubsection{The NO}\label{the-no}}
+
+\begin{itemize}
+\tightlist
+\item
+  no one true version
+\item
+  compare monotheistic religions
+
+  \begin{itemize}
+  \tightlist
+  \item
+    book, word of god, orthodox, heretical
+  \item
+    there can be variations between sects, but each sect thinks their
+    version is absolutely true
+  \end{itemize}
+\item
+  myths contain variations
+\item
+  e.g., where was Zeus born?
+
+  \begin{itemize}
+  \tightlist
+  \item
+    some say Crete, some say Arcadia
+  \end{itemize}
+\item
+  why was variation okay? mortals can never have certain knowledge about
+  gods
+\item
+  compare ``revealed religion''
+\end{itemize}
+
+\hypertarget{the-yes}{%
+\subsubsection{The YES}\label{the-yes}}
+
+\begin{itemize}
+\tightlist
+\item
+  myths worked -\textgreater{} they served their purposes
+
+  \begin{itemize}
+  \tightlist
+  \item
+    myth of Cadmus worked in giving a civic identity to Thebans
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{why-do-we-care-about-myths}{%
+\subsection{Why do we care about
+myths?}\label{why-do-we-care-about-myths}}
+
+\begin{itemize}
+\item
+  content vs function
+\item
+  content
+
+  \begin{itemize}
+  \tightlist
+  \item
+    greek and roman myth are important for understanding references in
+    history, later art and culture
+  \end{itemize}
+\item
+  function
+
+  \begin{itemize}
+  \tightlist
+  \item
+    compare how greek and roman myth worked with myths that we see in
+    our real lives
+  \item
+    .e.g., what do these stories accomplish
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Bill Gates = college dropout
+    \item
+      the Resistance in Star Wars
+    \item
+      visual myths in advertising (Marlboro man)
+    \end{itemize}
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{provisional-definition-for-myth}{%
+\subsection{Provisional definition for
+myth}\label{provisional-definition-for-myth}}
+
+\begin{itemize}
+\tightlist
+\item
+  myths are traditional stories embedded within a society that:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    present or encode the way that a society organizes its way of
+    thinking about the world
+  \end{itemize}
+\item
+  a way of thinking about the world
+\item
+  perception and experience about the world
+\end{itemize}
+
+\printbibliography[title=Myth and History]
+
+\end{document}
